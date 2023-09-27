@@ -1,0 +1,11 @@
+
+aulyanov@niisokb.ru
+Q1w2e3r4
+
+SSH: AUlyanoV SSH pub
+yfabufgjgeufhvjym
+yfabufgjgeufhvjym
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC+RUyZjGQNQJgoJc3TKIgz3HpDzOU8+HTnp++mGzwym4JxfvdlnGAPzrp++YmVJAuIVLEOoSTI2bWAQoIMeZC11chts+wga87ImXpQwzyxMpXFBJ2xpmo2bKeADFYv1ld510t6DQvaL+T5qx1X+UjaRPT6vzpn0dfqBSotNNq9aD20HoNJi9M1IjnCJ/5gUC84zFTuftc2jN0rCkCLVwnb7bLs/KguxsT/usvYzgBHn9T3SobTBfrOWS4Dio/q17ioROAoTYUCRC2QvuHw+iNJ2Vxh7CS2V2iFzmXTh4oW5YOq7FmUzmlpRwJuA0hMrV9rSN80lG3LUmGZeUECKvBSucXAjfyVUnMQ474wfyAuVk6W2jgVJo/+3fivwLdcqR9F04LrZcrOcsP+hWjGFgJAyTTiNNfQmbOEaXtajZy+u+t7g5RW4HBj210ylbGphp2nkrqJ9LBmGIpKZ71+G/SKnbF4k41rPjdAWEEMJ/60qPbIslUTZytoWQJiElSyle8= AUlyanov@AULYANOV
+
+команда рекурсивного клонирования
+git clone --recurse-submodules http://gitlab.local/iOS/MdmServer-v3
