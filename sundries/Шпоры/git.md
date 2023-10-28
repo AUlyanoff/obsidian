@@ -2,7 +2,7 @@
 git clone --recurse-submodules -j8 http://gitlab.local/iOS/MdmServer-v3[.git]
 
 
-###  перед выгрузкой новой локальной ветки, 
+### перед выгрузкой новой локальной ветки, 
 нужна будет команда
 git push —set-upstream имя ветки
 
@@ -23,7 +23,6 @@ git checkout feature/test_api_v2 src/app/portal/user_agreement_dao.py src/app/ap
 и далее фиксируем перенос этих двух файлов
 git commit -m "31327 bugfix изменение значения HTTP=475 и анализ флага использования ПС att-1"
 
-
 ### отменить последний коммит
 $ git reset --mixed HEAD~1
 --mixed изменения, содержащиеся в отменяемом коммите, НЕ должны исчезнуть
@@ -33,11 +32,9 @@ HEAD~1  значит, что HEAD должен быть переключен н�
 включая все изменения файлов данного коммита:
 git reset --hard HEAD~1
 
-
 ### Изменить сообщение последнего коммита
 git commit --amend
 Открывает редактор сообщений коммита.
-
 
 ### Перечень коммитов за один день
 git log --since="1 days" [-p покажет различия]
@@ -54,13 +51,11 @@ git log --oneline --decorate -graph --all
 ### Посмотреть ветки
 git branch -a
 
-
 ### Как удалить ветку
 - локальную 
   git branch -d develop-uam
 - удалённую
   git push origin --delete develop-uam
-
 
 ### Разрезолвить, взяв их файл functional/app_flags.xlsx
 AUlyanov@AUlyanov MINGW64 /d/projects/combat/SafePhone-requirements (develop-uam|MERGING)
@@ -73,7 +68,6 @@ $ git checkout --theirs -- functional/app_flags.xlsx
 
 AUlyanov@AUlyanov MINGW64 /d/projects/combat/SafePhone-requirements (develop-uam|MERGING)
 $ git add functional/app_flags.xlsx
-
 
 ### Внесите изменения
 git add . # или добавьте файлы по отдельности.
@@ -112,3 +106,31 @@ git push origin <tagname>
     `git commit -m "Removed submodule <name>"`
 7. Delete the now untracked submodule files:  
     `rm -rf path_to_submodule`
+
+
+### Выгрузить проект во внешний репозиторий
+
+1. `git init`
+    
+2. `git add .`
+    
+3. `git commit -m "Add all my files"`
+   
+4. Сделать в удалённом репо проект `your-repo-name`
+    
+5. `git remote add origin https://github.com/yourusername/your-repo-name.git`
+   
+6. `git push -u origin master`
+
+
+### Забрать коммит из другой ветки
+```
+git cherry-pick <commit>
+```
+применит `<commit>` к текущей ветке
+
+### Отменить ```cherry-pick```
+```
+git cherry-pick --abort
+```
+отменит операцию и вернёт ветку в предыдущее состояние
