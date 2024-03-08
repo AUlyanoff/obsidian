@@ -23,6 +23,10 @@ git checkout feature/test_api_v2 src/app/portal/user_agreement_dao.py src/app/ap
 и далее фиксируем перенос этих двух файлов
 git commit -m "31327 bugfix изменение значения HTTP=475 и анализ флага использования ПС att-1"
 
+### переименовать последний коммит
+`git commit --amend -c HEAD`
+
+
 ### отменить последний коммит
 $ git reset --mixed HEAD~1
 --mixed изменения, содержащиеся в отменяемом коммите, НЕ должны исчезнуть
@@ -91,6 +95,10 @@ git tag -a 8.2 c608ab1
 git push origin <tagname>
 
 
+### Добавить сабмодуль
+git submodule add `http://gitlab.local/SafePhone-common/DbApi` `json`
+git add `.gitmodules` `src/json`
+git commit -m "add repo json"
 
 ### To remove a submodule you need to
 

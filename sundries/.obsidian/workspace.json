@@ -4,35 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "ce6bab7e5d80dacc",
+        "id": "ce3397d4702f252d",
         "type": "tabs",
         "children": [
           {
-            "id": "5eb1b0d193287740",
+            "id": "3baf551f3ba9ff6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Шпоры/git.md",
-                "mode": "preview",
+                "file": "Шпоры/Разрешить скрипты (сценарии) Windows.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e7d9dfbd893135c7",
+            "id": "8bf70a8b93bb0b04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Шпоры/От Сапунова/Команды_для_навигации_и_определения_местоположения_для_работы_с.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70a13553de79fa3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Шпоры/От Сапунова/работа с дампом базы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acfc1e74a4d104d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Шпоры/От Сапунова/Установка внешних каталогов.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c194f76fc5a858e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Шпоры/git.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -159,8 +195,36 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "e7d9dfbd893135c7",
+  "active": "8c194f76fc5a858e",
   "lastOpenFiles": [
+    "Шпоры/От Сапунова/Раскатываем версию с нуля.md",
+    "Шпоры/От Сапунова/работа с дампом базы.md",
+    "Шпоры/От Сапунова/Установка внешних каталогов.md",
+    "Шпоры/От Сапунова/хотфикс.md",
+    "Шпоры/От Сапунова/Команды_для_навигации_и_определения_местоположения_для_работы_с.md",
+    "Шпоры/От Сапунова/ВЫДАЧА_ПРАВ_НА_УСТРОЙСТВО_ЧЕРЕЗ_АДБ.md",
+    "Шпоры/От Сапунова",
+    "Шпоры/От Сапунова/docker Снимаем ЛОГИ.md",
+    "Шпоры/docker Подключение Linux.md",
+    "Шпоры/внешние каталоги.docx",
+    "Шпоры/Установка внешних каталогов.txt",
+    "Шпоры/хотфикс.txt",
+    "Шпоры/Команды_для_навигации_и_определения_местоположения_для_работы_с.txt",
+    "Шпоры/работа с дампом базы.txt",
+    "Шпоры/ВЫДАЧА_ПРАВ_НА_УСТРОЙСТВО_ЧЕРЕЗ_АДБ.txt",
+    "Шпоры/docker Подключение Linux.txt",
+    "Шпоры/docker Снимаем ЛОГИ.txt",
+    "Реквизиты/Реквизиты Сбера МИР.pdf",
+    "Шпоры/docker логи.md",
+    "Шпоры/git.md",
+    "Код/Dockerfile.md",
+    "Код/docker-compose.yml.md",
+    "Шпоры/docker разное от Вялых.md",
+    "Шпоры/docker полезные команды.md",
+    "Шпоры/pip.md",
+    "Шпоры/nginx.md",
+    "Шпоры/virtualenv.md",
+    "Шпоры/docker запуск приложения.md",
     "Шпоры/Разрешить скрипты (сценарии) Windows.md",
     "Аватарки/am.jpg"
   ]
